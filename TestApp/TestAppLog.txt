@@ -1,0 +1,43 @@
+2020-03-25 14:22:57.705  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 15152 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:22:57.706  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:22:57.907  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:22:57.907  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:22:57.907  INFO 15152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:22:57.936  INFO 15152 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:22:57.937  INFO 15152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 228 ms
+2020-03-25 14:22:57.982  INFO 15152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:22:58.012  INFO 15152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:22:58.034  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 14:22:58.045  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.372 seconds (JVM running for 258.758)
+2020-03-25 14:22:58.050  INFO 15152 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:24:58.639  INFO 15152 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:24:58.894  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 15152 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:24:58.895  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:24:59.078  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:24:59.079  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:24:59.079  INFO 15152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:24:59.087  INFO 15152 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:24:59.088  INFO 15152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 191 ms
+2020-03-25 14:24:59.096  WARN 15152 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testAppApplication': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.practice.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-25 14:24:59.097  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 14:24:59.102  INFO 15152 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 14:24:59.197 ERROR 15152 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.practice.TestApp.TestAppApplication required a bean of type 'com.practice.service.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.practice.service.TestService' in your configuration.
+

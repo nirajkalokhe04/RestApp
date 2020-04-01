@@ -1,0 +1,401 @@
+2020-03-25 14:25:39.698  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 15152 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:25:39.698  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:25:39.880  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:25:39.881  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:25:39.881  INFO 15152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:25:39.890  INFO 15152 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:25:39.890  INFO 15152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 189 ms
+2020-03-25 14:25:39.896  WARN 15152 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testAppApplication': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.practice.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-25 14:25:39.897  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 14:25:39.901  INFO 15152 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 14:25:39.983 ERROR 15152 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.practice.TestApp.TestAppApplication required a bean of type 'com.practice.service.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.practice.service.TestService' in your configuration.
+
+2020-03-25 14:26:00.452  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 15152 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:26:00.453  INFO 15152 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:26:00.635  INFO 15152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:26:00.635  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:26:00.635  INFO 15152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:26:00.648  INFO 15152 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:26:00.648  INFO 15152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 193 ms
+2020-03-25 14:26:00.655  WARN 15152 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testAppApplication': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.practice.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-25 14:26:00.655  INFO 15152 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 14:26:00.660  INFO 15152 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 14:26:00.730 ERROR 15152 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.practice.TestApp.TestAppApplication required a bean of type 'com.practice.service.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.practice.service.TestService' in your configuration.
+
+2020-03-25 14:26:30.325  INFO 11788 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 11788 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:26:30.328  INFO 11788 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:26:30.368  INFO 11788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 14:26:30.368  INFO 11788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 14:26:31.119  INFO 11788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:26:31.126  INFO 11788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:26:31.126  INFO 11788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:26:31.177  INFO 11788 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:26:31.178  INFO 11788 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 809 ms
+2020-03-25 14:26:31.216  WARN 11788 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testAppApplication': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.practice.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-25 14:26:31.218  INFO 11788 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 14:26:31.229  INFO 11788 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 14:26:31.334 ERROR 11788 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.practice.TestApp.TestAppApplication required a bean of type 'com.practice.service.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.practice.service.TestService' in your configuration.
+
+2020-03-25 14:27:12.654  INFO 1248 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 1248 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:27:12.657  INFO 1248 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:27:12.694  INFO 1248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 14:27:12.694  INFO 1248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 14:27:13.287  INFO 1248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:27:13.293  INFO 1248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:27:13.294  INFO 1248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:27:13.341  INFO 1248 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:27:13.341  INFO 1248 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 647 ms
+2020-03-25 14:27:13.377  WARN 1248 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testAppApplication': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.practice.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-25 14:27:13.379  INFO 1248 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 14:27:13.388  INFO 1248 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 14:27:13.487 ERROR 1248 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.practice.TestApp.TestAppApplication required a bean of type 'com.practice.service.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.practice.service.TestService' in your configuration.
+
+2020-03-25 14:31:21.021  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:31:21.025  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:31:21.067  INFO 8668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 14:31:21.067  INFO 8668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 14:31:21.832  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:31:21.840  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:31:21.840  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:31:21.893  INFO 8668 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:31:21.893  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 826 ms
+2020-03-25 14:31:21.938  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:31:22.051  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:31:22.167  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:31:22.202  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 14:31:22.206  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 1.503 seconds (JVM running for 2.117)
+2020-03-25 14:36:16.132  INFO 8668 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:36:16.375  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:36:16.376  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:36:16.617  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:36:16.618  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:36:16.618  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:36:16.650  INFO 8668 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:36:16.650  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 268 ms
+2020-03-25 14:36:16.661  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:36:16.696  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:36:16.725  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:36:16.734  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 14:36:16.735  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.392 seconds (JVM running for 296.646)
+2020-03-25 14:36:16.736  INFO 8668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:36:22.987  INFO 8668 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 14:36:22.988  INFO 8668 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 14:36:22.994  INFO 8668 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-03-25 14:40:11.615  INFO 8668 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:40:11.876  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:40:11.876  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:40:12.069  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:40:12.070  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:40:12.070  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:40:12.180  INFO 8668 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:40:12.181  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 301 ms
+2020-03-25 14:40:12.191  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:40:12.234  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:40:12.263  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:40:12.274  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 14:40:12.274  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.423 seconds (JVM running for 532.186)
+2020-03-25 14:40:12.276  INFO 8668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:40:55.755  INFO 8668 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:40:55.997  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:40:55.997  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:40:56.178  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:40:56.179  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:40:56.179  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:40:56.188  INFO 8668 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:40:56.188  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 188 ms
+2020-03-25 14:40:56.196  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:40:56.227  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:40:56.257  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:40:56.266  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 14:40:56.267  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.294 seconds (JVM running for 576.178)
+2020-03-25 14:40:56.268  INFO 8668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:41:09.034  INFO 8668 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 14:41:09.035  INFO 8668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 14:41:09.041  INFO 8668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-03-25 14:41:27.720  INFO 8668 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:41:27.917  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:41:27.917  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:41:28.104  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:41:28.104  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:41:28.105  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:41:28.117  INFO 8668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:41:28.117  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 197 ms
+2020-03-25 14:41:28.126  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:41:28.157  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:41:28.184  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:41:28.193  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:41:28.194  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.295 seconds (JVM running for 608.105)
+2020-03-25 14:41:28.196  INFO 8668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:41:29.114  INFO 8668 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 14:41:29.115  INFO 8668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 14:41:29.121  INFO 8668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-25 14:41:46.628  INFO 8668 --- [Thread-37] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:41:46.862  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:41:46.862  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:41:47.036  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:41:47.036  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:41:47.036  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:41:47.052  INFO 8668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:41:47.052  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 187 ms
+2020-03-25 14:41:47.060  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:41:47.090  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:41:47.116  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:41:47.126  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:41:47.127  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.294 seconds (JVM running for 627.039)
+2020-03-25 14:41:47.129  INFO 8668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 14:41:52.256  INFO 8668 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 14:41:52.257  INFO 8668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 14:41:52.260  INFO 8668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-03-25 14:42:07.571  INFO 8668 --- [Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:42:07.805  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 8668 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 14:42:07.805  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 14:42:07.971  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 14:42:07.972  INFO 8668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:42:07.972  INFO 8668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:42:07.980  INFO 8668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:42:07.981  INFO 8668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 173 ms
+2020-03-25 14:42:07.989  INFO 8668 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$4a587807 : test logger
+2020-03-25 14:42:08.020  INFO 8668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:42:08.047  INFO 8668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:42:08.056  INFO 8668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 14:42:08.056  INFO 8668 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.275 seconds (JVM running for 647.967)
+2020-03-25 14:42:08.057  INFO 8668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 15:13:15.185  INFO 16308 --- [main] c.p.TestApp.TestAppApplicationTests      : Starting TestAppApplicationTests on Niraj with PID 16308 (started by Lenovo in F:\Angular\TestApp)
+2020-03-25 15:13:15.186  INFO 16308 --- [main] c.p.TestApp.TestAppApplicationTests      : No active profile set, falling back to default profiles: default
+2020-03-25 15:13:15.972  INFO 16308 --- [main] ication$$EnhancerBySpringCGLIB$$92b3f8c6 : test logger
+2020-03-25 15:13:16.351  INFO 16308 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:13:16.642  INFO 16308 --- [main] c.p.TestApp.TestAppApplicationTests      : Started TestAppApplicationTests in 1.718 seconds (JVM running for 2.75)
+2020-03-25 15:13:16.925  INFO 16308 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:14:49.151  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 23408 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 15:14:49.155  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 15:14:49.198  INFO 23408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:14:49.199  INFO 23408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:14:49.994  INFO 23408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:14:50.002  INFO 23408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:14:50.002  INFO 23408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:14:50.066  INFO 23408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:14:50.067  INFO 23408 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 868 ms
+2020-03-25 15:14:50.110  INFO 23408 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$24eb1fe0 : test logger
+2020-03-25 15:14:50.229  INFO 23408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:14:50.352  INFO 23408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:14:50.399  INFO 23408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:14:50.403  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 1.596 seconds (JVM running for 2.253)
+2020-03-25 15:17:21.106  INFO 23408 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:17:21.324  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 23408 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 15:17:21.324  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 15:17:21.570  INFO 23408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:17:21.571  INFO 23408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:17:21.572  INFO 23408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:17:21.627  INFO 23408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:17:21.627  INFO 23408 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 299 ms
+2020-03-25 15:17:21.640  INFO 23408 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$24eb1fe0 : test logger
+2020-03-25 15:17:21.681  INFO 23408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:17:21.713  INFO 23408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:17:21.723  INFO 23408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:17:21.724  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.428 seconds (JVM running for 153.575)
+2020-03-25 15:17:21.727  INFO 23408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 15:17:33.148  INFO 23408 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:17:33.482  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 23408 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 15:17:33.482  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 15:17:33.774  INFO 23408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 15:17:33.775  INFO 23408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:17:33.775  INFO 23408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:17:33.789  INFO 23408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:17:33.789  INFO 23408 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 303 ms
+2020-03-25 15:17:33.802  INFO 23408 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$24eb1fe0 : test logger
+2020-03-25 15:17:33.849  INFO 23408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:17:33.888  INFO 23408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:17:33.902  INFO 23408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 15:17:33.903  INFO 23408 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.452 seconds (JVM running for 165.753)
+2020-03-25 15:17:33.905  INFO 23408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 15:17:47.057  INFO 23408 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:17:47.058  INFO 23408 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:17:47.066  INFO 23408 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-03-25 15:20:01.220  INFO 23408 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-25 15:20:01.224  INFO 23408 --- [RMI TCP Connection(16)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:32:11.709  INFO 27700 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 27700 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 16:32:11.713  INFO 27700 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 16:32:11.785  INFO 27700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:32:11.785  INFO 27700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:32:13.167  INFO 27700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:32:13.178  INFO 27700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:32:13.178  INFO 27700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:32:13.438  INFO 27700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:32:13.438  INFO 27700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1653 ms
+2020-03-25 16:32:13.510  INFO 27700 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$3129cfe3 : test logger
+2020-03-25 16:32:13.709  INFO 27700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:32:13.921  INFO 27700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:32:13.985  INFO 27700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-25 16:32:13.989  INFO 27700 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 2.847 seconds (JVM running for 4.001)
+2020-03-25 16:32:33.536  INFO 27700 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:32:33.536  INFO 27700 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:32:33.542  INFO 27700 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-25 16:32:48.595  INFO 27700 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:32:49.074  INFO 27700 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 27700 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 16:32:49.074  INFO 27700 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 16:32:49.454  INFO 27700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:32:49.454  INFO 27700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:32:49.454  INFO 27700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:32:49.474  INFO 27700 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:32:49.474  INFO 27700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 396 ms
+2020-03-25 16:32:49.494  INFO 27700 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$3129cfe3 : test logger
+2020-03-25 16:32:49.566  INFO 27700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:32:49.622  INFO 27700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:32:49.643  INFO 27700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 16:32:49.643  INFO 27700 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.624 seconds (JVM running for 39.655)
+2020-03-25 16:32:49.647  INFO 27700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 16:32:56.111  INFO 27700 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:32:56.115  INFO 27700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:32:56.128  INFO 27700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-03-25 16:39:29.907  INFO 17920 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 17920 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 16:39:29.915  INFO 17920 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 16:39:30.006  INFO 17920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:39:30.006  INFO 17920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:39:31.624  INFO 17920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:39:31.639  INFO 17920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:39:31.639  INFO 17920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:39:31.747  INFO 17920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:39:31.751  INFO 17920 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1745 ms
+2020-03-25 16:39:31.834  INFO 17920 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$16954fc5 : test logger
+2020-03-25 16:39:32.082  INFO 17920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:39:32.330  WARN 17920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-03-25 16:39:32.390  INFO 17920 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 16:39:32.406  INFO 17920 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 16:39:32.414 ERROR 17920 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-25 16:39:32.418  INFO 17920 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:39:42.989  INFO 27700 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-25 16:39:42.998  INFO 27700 --- [RMI TCP Connection(23)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:39:56.140  INFO 27680 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 27680 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 16:39:56.148  INFO 27680 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 16:39:56.231  INFO 27680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:39:56.231  INFO 27680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:39:58.078  INFO 27680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:39:58.092  INFO 27680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:39:58.092  INFO 27680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:39:58.204  INFO 27680 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:39:58.204  INFO 27680 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1973 ms
+2020-03-25 16:39:58.300  INFO 27680 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$6af28170 : test logger
+2020-03-25 16:39:58.551  INFO 27680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:39:58.803  INFO 27680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:39:58.879  INFO 27680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 16:39:58.883  INFO 27680 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 3.406 seconds (JVM running for 4.733)
+2020-03-25 16:40:23.318  INFO 27680 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-25 16:40:23.323  INFO 27680 --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:52:51.459  INFO 18888 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 18888 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 16:52:51.475  INFO 18888 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 16:52:51.571  INFO 18888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:52:51.571  INFO 18888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:52:53.288  INFO 18888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 16:52:53.305  INFO 18888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:52:53.305  INFO 18888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:52:53.417  INFO 18888 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:52:53.417  INFO 18888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1846 ms
+2020-03-25 16:52:53.513  INFO 18888 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$d487145e : test logger
+2020-03-25 16:52:53.764  INFO 18888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:52:54.012  INFO 18888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:52:54.192  INFO 18888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 16:52:54.200  INFO 18888 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 3.456 seconds (JVM running for 4.917)
+2020-03-25 16:53:03.100  INFO 18888 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 16:53:03.104  INFO 18888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 16:53:03.110  INFO 18888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-25 17:02:13.769  INFO 18888 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:02:14.044  INFO 18888 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Starting TestAppApplication on Niraj with PID 18888 (F:\Angular\TestApp\target\classes started by Lenovo in F:\Angular\TestApp)
+2020-03-25 17:02:14.044  INFO 18888 --- [restartedMain] com.practice.TestApp.TestAppApplication  : No active profile set, falling back to default profiles: default
+2020-03-25 17:02:14.310  INFO 18888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-25 17:02:14.310  INFO 18888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:02:14.310  INFO 18888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:02:14.318  INFO 18888 --- [restartedMain] o.a.c.c.C.[.[localhost].[/TestApp]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:02:14.318  INFO 18888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 270 ms
+2020-03-25 17:02:14.326  INFO 18888 --- [restartedMain] ication$$EnhancerBySpringCGLIB$$d487145e : test logger
+2020-03-25 17:02:14.362  INFO 18888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:02:14.390  INFO 18888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:02:14.398  INFO 18888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/TestApp'
+2020-03-25 17:02:14.398  INFO 18888 --- [restartedMain] com.practice.TestApp.TestAppApplication  : Started TestAppApplication in 0.375 seconds (JVM running for 565.116)
+2020-03-25 17:02:14.402  INFO 18888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
