@@ -1,0 +1,33 @@
+.example-card {
+    max-width: 400px;
+    height: 400px;
+}
+
+.mat-button.mat-primary .mat-button-focus-overlay {
+    background-color: darkmagenta;
+}
+
+.example-header-image {
+    background-image: url('../../assets/images/master-images/restaurant-menu.png');
+    background-size: cover;
+}
+
+.customer-header-image {
+    background-image: url('../../assets/images/master-images/customer.png');
+    background-size: cover;
+}
+
+.combo-header-image {
+    background-image: url('../../assets/images/master-images/combo.png');
+    background-size: cover;
+}
+
+.kitchen-header-image {
+    background-image: url('../../assets/images/master-images/kitchen.png');
+    background-size: cover;
+}
+
+.menu-header-image {
+    background-image: url('../../assets/images/master-images/restaurant-menu.png');
+    background-size: cover;
+}

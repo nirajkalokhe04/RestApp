@@ -40,7 +40,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
       ScrollToModule.forRoot(),
       AgmCoreModule.forRoot({apiKey: 'AIzaSyCE0nvTeHBsiQIrbpMVTe489_O5mwyqofk'}),
       ClickOutsideModule,
-      PerfectScrollbarModule,
+      PerfectScrollbarModule
   ],
   declarations: [
       AccordionAnchorDirective,
@@ -80,6 +80,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
       ClickOutsideModule,
       PerfectScrollbarModule
   ],
+
   providers: [
       MenuItems,
       TodoService,

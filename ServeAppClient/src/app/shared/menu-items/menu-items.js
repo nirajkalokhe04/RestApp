@@ -213,6 +213,66 @@ var MENUITEMS = [
         ]
     },
     {
+        label: 'Reports',
+        main: [
+            {
+                state: 'reports',
+                name: 'Reports',
+                type: 'link',
+                icon: 'ti-mobile',
+                target: true
+            }
+        ]
+    },
+    {
+        label: 'Sales',
+        main: [
+            {
+                state: 'sales',
+                name: 'Sales',
+                type: 'link',
+                icon: 'ti-mobile',
+                target: true
+            }
+        ]
+    },
+    {
+        label: 'Settings',
+        main: [
+            {
+                state: 'settings',
+                name: 'Settings',
+                type: 'link',
+                icon: 'ti-mobile',
+                target: true
+            }
+        ]
+    },
+    {
+        label: 'Item Master',
+        main: [
+            {
+                state: 'master/item-master',
+                name: 'Item Master',
+                type: 'link',
+                icon: 'ti-mobile',
+                target: true
+            }
+        ]
+    },
+    {
+        label: 'Category Master',
+        main: [
+            {
+                state: 'master/category-master',
+                name: 'Category Master',
+                type: 'link',
+                icon: 'ti-mobile',
+                target: true
+            }
+        ]
+    },
+    {
         label: 'Pages',
         main: [
             {

@@ -14,6 +14,30 @@ const routes: Routes = [
         pathMatch: 'full'
       },
       {
+        path: 'item-master',
+        loadChildren: () => import('./masters/item-master/item-masters.module').then(m => m.ItemMastersModule)
+      },
+      {
+        path: 'customer-master',
+        loadChildren: () => import('./masters/customer-master/customer-masters.module').then(m => m.CustomerMastersModule)
+      },
+      {
+        path: 'combo-master',
+        loadChildren: () => import('./masters/combo-master/combo-masters.module').then(m => m.ComboMastersModule)
+      },
+      {
+        path: 'customer-group-master',
+        loadChildren: () => import('./masters/customer-group-master/customer-group-masters.module').then(m => m.CustomerGroupMastersModule)
+      },
+      {
+        path: 'category-master',
+        loadChildren: () => import('./masters/category-master/category-masters.module').then(m => m.CategoryModule)
+      },
+      {
+        path: 'kitchen-master',
+        loadChildren: () => import('./masters/kitchen-master/kitchen-masters.module').then(m => m.KitchenMastersModule)
+      },
+      {
         path: 'dashboard',
         loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
       }, {

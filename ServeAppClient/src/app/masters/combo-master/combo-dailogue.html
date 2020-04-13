@@ -1,0 +1,90 @@
+ 
+ <mat-card>
+  <mat-card-header>
+    <mat-card-title>Add Combo</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+ 
+ <form class="example-form">
+ <div class="row">
+
+      <div class="col">
+            <mat-form-field appearance="outline">
+              <mat-label>Combo Name</mat-label>
+              <input matInput placeholder="Placeholder">
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Enter name of item </mat-hint>
+            </mat-form-field>
+      </div>
+
+      <div class="col">
+            <mat-form-field appearance="outline">
+            <mat-label>Variant</mat-label>
+                <input type="text" placeholder="Pick one" multiselect = true  matInput [formControl]="myControl" [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                    </mat-option>
+                </mat-autocomplete>
+                <mat-hint>Select category of item</mat-hint>
+            </mat-form-field>
+      </div>
+
+        <div class="col">
+            <mat-form-field appearance="outline">
+              <mat-label>HSN Code</mat-label>
+              <input matInput placeholder="Placeholder">
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Enter HSN Code</mat-hint>
+            </mat-form-field>
+      </div>
+
+  </div>
+  
+  <div class="row">
+
+        <div class="col">
+
+              <mat-slide-toggle>Include Tax</mat-slide-toggle>
+        </div>
+
+        <div class="col">
+
+            <mat-form-field appearance="outline">
+                <mat-label>Tax Rate</mat-label>
+                  <input matInput placeholder="Placeholder">
+                <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                <mat-hint>Enter Tax Rate </mat-hint>
+            </mat-form-field>
+        </div>
+
+        <div class="col">
+            <mat-form-field appearance="outline" class="example-full-width">
+    <mat-label>Email</mat-label>
+    <input matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+    <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+      Please enter a valid email address
+    </mat-error>
+    <mat-error *ngIf="emailFormControl.hasError('required')">
+      Email is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+        </div>
+  </div>
+  <div class="row">
+
+        <div class="col" style="text-align:end">
+        <button mat-raised-button color="primary" type="submit" [disabled]="service.form.invalid">Submit</button>
+        </div>
+        
+        <div class="col" style="text-align:start">
+        
+          <button mat-raised-button color="warn" (click)="onClear()">Clear</button>
+        </div>
+          
+  </div>
+  
+  </form>
+  
+  </mat-card-content>
+</mat-card>

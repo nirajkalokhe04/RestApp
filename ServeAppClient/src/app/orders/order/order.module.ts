@@ -46,6 +46,11 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import { EditableComponent } from 'src/app/shared/directives/editable.component';
+import { ViewModeDirective } from 'src/app/shared/directives/view-mode.directive';
+import { EditModeDirective } from 'src/app/shared/directives/edit-mode.directive';
+import { EditableOnEnterDirective } from 'src/app/shared/directives/edit-on-enter.directive';
+import { FocusableDirective } from 'src/app/shared/directives/focusable.directive';
 @NgModule({
   imports: [
     CommonModule,
@@ -95,6 +100,9 @@ import {MatTreeModule} from '@angular/material/tree';
     PortalModule,
     ScrollingModule
   ],
-  declarations: [OrderComponent]
+  entryComponents:[OrderComponent],
+  declarations: [OrderComponent,EditableComponent,ViewModeDirective,
+    EditModeDirective, FocusableDirective, 
+    EditableOnEnterDirective]
 })
 export class OrderModule { }

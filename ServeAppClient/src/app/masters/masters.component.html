@@ -1,1 +1,125 @@
-<p>masters works!</p>
+<div class="container">
+  <div class="row">
+
+
+    <div class="col">
+     
+<mat-card class="example-card">
+
+  <mat-card-header>
+    <div mat-card-avatar class="menu-header-image"></div>
+    <mat-card-title>Menu</mat-card-title>
+    <mat-card-subtitle>Master</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  
+  <mat-card-content>
+  
+    <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+      <mat-chip  (click)="save('item')" selected  [color]="primary"> Item Master </mat-chip>
+      <mat-chip  (click)="save('category')" selected [color]="primary"> Category Master </mat-chip>
+    </mat-chip-list>
+
+  </mat-card-content>
+
+</mat-card>
+
+    </div>
+
+
+    <div class="col">
+     
+<mat-card class="example-card">
+
+  <mat-card-header>
+
+    <div mat-card-avatar class="customer-header-image">
+    </div>
+    <mat-card-title>Customer </mat-card-title>
+    <mat-card-subtitle>Master</mat-card-subtitle>
+  </mat-card-header>
+
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+
+  <mat-card-content>
+
+    <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+
+      <mat-chip  (click)="save('customer')" selected [color]="primary"> Customer </mat-chip>
+      <mat-chip (click)="save('customer-group')" selected [color]="primary"> Customer Group </mat-chip>
+
+    </mat-chip-list>
+
+  </mat-card-content>
+
+</mat-card>
+
+</div>
+
+
+    <div class="col">
+      
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="combo-header-image"></div>
+            <mat-card-title>Combo</mat-card-title>
+            <mat-card-subtitle>Master</mat-card-subtitle>
+        </mat-card-header>
+              <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+              <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+                <mat-chip (click)="save('combo')" selected [color]="primary">Combo </mat-chip>
+              </mat-chip-list>
+          </mat-card-content>
+      </mat-card>
+
+    </div>
+
+
+    
+    <div class="col">
+      
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Unicode</mat-card-title>
+    <mat-card-subtitle>Master</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+  <mat-chip  selected [color]="primary"> Item Name </mat-chip>
+    <mat-chip  selected [color]="primary"> Customer Name </mat-chip>
+
+</mat-chip-list>
+  </mat-card-content>
+  <mat-card-actions>
+    
+  </mat-card-actions>
+</mat-card>
+
+    </div>
+    <div class="col">
+      
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="kitchen-header-image"></div>
+    <mat-card-title>Kitchen</mat-card-title>
+    <mat-card-subtitle>Master</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+   <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+  <mat-chip (click)="save('kitchen')" selected [color]="primary"> Kitchen Setup </mat-chip>
+
+</mat-chip-list>
+  </mat-card-content>
+  <mat-card-actions>
+    
+  </mat-card-actions>
+</mat-card>
+
+    </div>
+  </div>
+  
+</div>
